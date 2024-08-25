@@ -3,13 +3,124 @@
 }
 
 .how-it-works-title-container {
-    margin: 20px 0;
+    display: block;
+    padding: 20px 0 20px 0;
 }
 
 .how-it-works-title-text {
+    display: block;
     font-family: var(--title-text-font);
     font-size: 40px;
     color: var(--title-text-black);
     font-weight: bold;
     text-align: center;
+    margin-top: 30px;
 }
+
+.smart-content-images-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.smart-content-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.smart-piechart {
+    width: 170px;
+    height: auto;
+    margin: 10px;
+}
+
+.smart-barplot {
+    width: 170px;
+    height: auto;
+    margin: 10px;
+}
+
+.smart-content-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-works-logo-emptyx {
+    height: 31px;
+    width: 31px;
+    margin: 5px;
+    max-width: 100%;
+}
+
+.how-it-works-logo-dumbbell {
+    height: 50px;
+    width: auto;
+    margin: 5px;
+    max-width: 100%;
+}
+
+.smart-logo-plus, .fast-logo-emptyx {
+    height: 31px;
+    width: 31px;
+    margin: 5px;
+    max-width: 100%;
+}
+
+.fast-content-text-title, .smart-content-text-title {
+    text-align: left;
+    font-size: 27px;
+    font-family: var(--title-text-font);
+    color: var(--title-text-black);
+    font-weight: bold;
+    margin: 20px;
+}
+
+.fast-content-text-description, .smart-content-text-description {
+    text-align: left;
+    font-size: 16px;
+    font-family: var(--title-text-font);
+    color: var(--title-text-black);
+    margin: 20px;
+    line-height: normal;
+}
+
+.smart-content-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fast-content-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fast-lineplot {
+    width: 300px;
+    height: auto;
+    margin: 20px 10px;
+}
+
+.fast-logo-plus-container, .smart-logo-plus-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 550px) {
+    .how-it-works-content-wrapper-grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Два стовпці */
+      grid-template-rows: repeat(2, auto);   /* Два рядки */
+      gap: 20px; /* Проміжок між блоками, за бажанням */
+    }
+  }
+  
