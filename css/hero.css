@@ -1,3 +1,8 @@
+.hero-section {
+    position: relative;
+    margin-bottom: 20px;
+}
+
 .hero-content-wrapper-grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -17,10 +22,14 @@
     margin-right: 28px;
 }
 
-/*.hero-title {
-    width: 70%;
+/*carousel block*/
+.d-block.w-100 {
+    max-width: 450px;
+    display: block;
+    margin-left: auto; /* Центрує зображення по горизонталі */
+    margin-right: auto; /* Центрує зображення по горизонталі */
+    height: auto; /* Зберігає пропорції зображення */
 }
-*/
 
 .hero-title-text {
     text-align: center;

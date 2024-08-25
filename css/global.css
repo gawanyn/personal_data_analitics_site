@@ -11,8 +11,12 @@
 :root {
   /*colors*/
   --title-text-light: rgb(255, 255, 255);
-  --title-text-dark: rgb(0, 0, 0);
+  --title-text-dark: #5933AA;
+  --title-text-black: #2F2E2E;
+
+  --description-text-dark: #605E5E;
   --background-button: rgb(133, 77, 255);
+  --background-secondary: rgb(242, 247, 255);
 
   /*fonts*/
   --title-text-font: "Raleway", sans-serif;

@@ -1,114 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AnalyticaHub</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-    <link rel="stylesheet" href="css/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
-</head>
+    <link
+      rel="shortcut icon"
+      href="https://placekitten.com/96/139"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">AnalyticaHub</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">How it works</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Press</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Request a demo</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AnalyticaHub</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">How it works</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Press</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Request a demo</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <section class="hero-section">
-          <div class="background-video">
-            <video autoplay muted loop>
-              <source src="videos/background-video.mp4" type="video/mp4">
-            </video>
+      <section class="hero-section">
+        <div class="background-video">
+          <video autoplay muted loop>
+            <source src="videos/background-video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="hero-content-wrapper-grid-container">
+          <div class="hero-logo-plus-container">
+            <div class="hero-logo-plus">
+              <img
+                class="hero-logo-plus-image"
+                src="img/logo-plus.svg"
+                alt="logo-plus"
+              />
+            </div>
           </div>
-          <div class="hero-content-wrapper-grid-container">
-            <div class="hero-logo-plus-container">
-              <div class="hero-logo-plus">
-                <img class="hero-logo-plus-image" src="img/hero-logo-plus.svg">
+          <div class="hero-title-container">
+            <div class="hero-title">
+              <h1 class="hero-title-text">
+                The smartest way to manage your data
+              </h1>
+            </div>
+          </div>
+          <div class="hero-description-container">
+            <div class="hero-description">
+              <p class="hero-description-text">
+                In today's fast-paced world, data management is crucial for
+                making informed decisions and staying ahead of the competition.
+              </p>
+            </div>
+          </div>
+          <div class="request-demo-button-conatainer">
+            <button type="button" class="btn btn-primary">Request demo</button>
+          </div>
+          <div class="hero-logo-zero-container">
+            <div class="hero-logo-zero">
+              <img
+                class="hero-logo-zero-image"
+                src="img/logo-zero.svg"
+                alt="logo-zero"
+              />
+            </div>
+          </div>
+          <div id="carousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="img/hero-image.webp"
+                  class="d-block w-100"
+                  alt="graph1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/hero-image2.webp"
+                  class="d-block w-100"
+                  alt="graph2"
+                />
               </div>
             </div>
-            <div class="hero-title-container">
-              <div class="hero-title">
-                <h1 class="hero-title-text">
-                  The smartest way to manage your data
-                </h1>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="about-section">
+        <div class="about-content-wrapper-grid-container">
+          <div class="about-item-container">
+            <div class="about-item-title-container">
+              <div class="about-item-title-logo">
+                <img
+                class="about-item-logo"
+                src="img/logo-emptyx.svg"
+                alt="logo-emptyx"
+                />  
               </div>
-            </div>
-            <div class="hero-description-container">
-              <div class="hero-description">
-                <p class="hero-description-text">
-                  In today's fast-paced world, data management is crucial for making informed decisions and staying ahead of the competition. 
+              <div class="about-item-title-text-container">
+                <h2 class="about-item-title-text">
+                  Our story
+                </h2>
+              </div>
+              <div class="about-item-title-description-container">
+                <p class="about-item-title-description-text">
+                  "Analytics Hub" was founded with a mission to make analytics accessible to everyone. We combine innovative technology with deep data insights to help businesses make informed decisions. Our team is dedicated to simplicity and efficiency, offering tools and solutions that transform data into actionable information.
                 </p>
               </div>
             </div>
-            <div class="request-demo-button-conatainer">
-              <button type="button" class="btn btn-primary">Request demo</button>
-            </div>
-            <div class="hero-logo-zero-container">
-              <div class="hero-logo-zero">
-                <img class="hero-logo-zero-image" src="img/hero-logo-zero.svg">
-              </div>
-            </div>
-            <div id="carousel" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="img/hero-image.webp" class="d-block w-100" alt="graph1">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/hero-image2.webp" class="d-block w-100" alt="graph2">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
           </div>
-        </section>
-        <section class="about-section">
-          <div class="about-content-wrapper-grid-container">
-            <div class="our-story-container">
-              <div class="our-story-title-container">
-                <div class="our-story-title-logo"></div>
-                <div class="our-story-title-text"></div>
-                <div class="our-story-titile-description"></div>
+          <div class="about-item-container">
+            <div class="about-item-title-container">
+              <div class="about-item-title-logo">
+                <img
+                class="about-item-logo"
+                src="img/logo-zero.svg"
+                alt="logo-zero"
+                />  
+              </div>
+              <div class="about-item-title-text-container">
+                <h2 class="about-item-title-text">
+                  Our Vision
+                </h2>
+              </div>
+              <div class="about-item-title-description-container">
+                <p class="about-item-title-description-text">
+                  At "Analytics Hub," our vision is to empower organizations with the tools and insights they need to unlock their full potential. We strive to be the leading platform for data-driven decision-making, where innovation meets clarity. Our goal is to transform complex data into simple, actionable insights, making analytics accessible and valuable for everyone.
+                </p>
               </div>
             </div>
           </div>
-        </section>
+          <div class="about-item-container">
+            <div class="about-item-title-container">
+              <div class="about-item-title-logo">
+                <img
+                class="about-item-logo"
+                src="img/logo-plus.svg"
+                alt="logo-plus"
+                />  
+              </div>
+              <div class="about-item-title-text-container">
+                <h2 class="about-item-title-text">
+                  Technology
+                </h2>
+              </div>
+              <div class="about-item-title-description-container">
+                <p class="about-item-title-description-text">
+                  "Analytics Hub" utilizes advanced analytics and machine learning to deliver real-time insights. Our platform is built on secure, scalable cloud infrastructure, integrating seamlessly with various data sources to provide reliable and actionable information.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="how-it-works-section">
+        <div class="how-it-works-title-container">
+          <div class="how-it-works-title">
+            <h2 class="how-it-works-title-text">
+              How it works
+            </h2>
+          </div>
+        </div>
+        <div class="how-it-works-content-wrapper-grid-container">
+          <div class="smart-content-container"></div>
+          <div class="fast-content-container"></div>
+        </div>
+      </section>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>

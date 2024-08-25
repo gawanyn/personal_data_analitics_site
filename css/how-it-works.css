@@ -1,0 +1,15 @@
+.how-it-works-section {
+    background-color: var(--background-secondary);
+}
+
+.how-it-works-title-container {
+    margin: 20px 0;
+}
+
+.how-it-works-title-text {
+    font-family: var(--title-text-font);
+    font-size: 40px;
+    color: var(--title-text-black);
+    font-weight: bold;
+    text-align: center;
+}
