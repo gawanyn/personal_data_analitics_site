@@ -1,0 +1,91 @@
+.hero-content-wrapper-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+}
+
+.hero-logo-plus-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-logo-plus {
+    height: 31px;
+    width: 31px;
+    margin-top: 28px;
+    margin-bottom: 13px;
+    margin-right: 28px;
+}
+
+/*.hero-title {
+    width: 70%;
+}
+*/
+
+.hero-title-text {
+    text-align: center;
+    font-family: var(--title-text-font);
+    font-size: 30px;
+    color: var(--title-text-light);
+    font-weight: bold;
+    margin: auto 15%;
+}
+
+.hero-description-text {
+    text-align: center;
+    font-family: var(--title-text-font);
+    font-size: 18px;
+    color: var(--title-text-light);
+    margin: 20px 15%;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+  
+.background-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    background: url('your-fallback-image.jpg') no-repeat;
+    background-size: cover;
+}
+
+.request-demo-button-conatainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.btn-primary {
+    background-color: var(--background-button);
+    text-align: center;
+}
+
+.hero-logo-zero-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero-logo-zero {
+    height: 31px;
+    width: 31px;
+    margin-top: -18px;
+    margin-bottom: 13px;
+    margin-left: 18px;
+}
+
+.carousel.slide {
+    margin: -10px 0;
+}
