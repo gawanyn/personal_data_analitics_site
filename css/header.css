@@ -1,0 +1,51 @@
+.navbar-custom {
+    background-color: var(--background-footer);
+    font-family: var(--title-text-font);
+    padding: 20px 0;
+    color: var(--title-text-light);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-custom .navbar-brand {
+    color: var(--title-text-light);
+    font-family: var(--title-text-font);
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-custom .navbar-brand:hover {
+    color: var(--title-text-light);
+    text-decoration: none;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: var(--title-text-light);
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+.navbar-custom .navbar-nav .nav-link.disabled {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-custom .navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

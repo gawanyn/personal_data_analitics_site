@@ -25,62 +25,34 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">AnalyticaHub</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="#"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">How it works</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Press</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Request a demo</a
-                >
-              </li>
-            </ul>
+    <header class="header" id="header">
+      <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">AnalyticaHub</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#about-section">About</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#how-it-works-section">How it works</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#info-hub">Info Hub</a>
+                      </li>
+                  </ul>
+              </div>
           </div>
-        </div>
       </nav>
     </header>
     <main>
-      <section class="hero-section">
+      <section class="hero-section" id="hero-section">
         <div class="background-video">
           <video autoplay muted loop>
             <source src="videos/background-video.mp4" type="video/mp4" />
@@ -167,7 +139,7 @@
           </div>
         </div>
       </section>
-      <section class="about-section">
+      <section class="about-section" id="about-section">
         <div class="about-content-wrapper-grid-container">
           <div class="about-item-container">
             <div class="about-item-title-container">
@@ -234,7 +206,7 @@
           </div>
         </div>
       </section>
-      <section class="how-it-works-section">
+      <section class="how-it-works-section" id="how-it-works-section">
         <div class="how-it-works-title-container">
           <div class="how-it-works-title">
             <h2 class="how-it-works-title-text">
@@ -289,7 +261,7 @@
           </div>
         </div>        
       </section>
-      <section class="slideshow-section">
+      <section class="slideshow-section" id="slideshow-section">
         <div class="slideshow-container">
           <div class="mySlides fade">
             <div class="quote-source">Data Today</div>
@@ -301,7 +273,6 @@
             <div class="quote">"The smartest product in the market"</div>
           </div>
         
-          <!-- Кнопки "назад" та "вперед" -->
           <a class="prev" href="#" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" href="#" onclick="plusSlides(1)">&#10095;</a>
           
@@ -315,7 +286,7 @@
       </section>
     </main>
 
-    <footer id="footer" class="footer">
+    <footer class="footer" id="info-hub">
       <div class="footer-container">
           <div class="footer-links">
               <p><a href="/accessibility" target="_self">Accessibility</a></p>
