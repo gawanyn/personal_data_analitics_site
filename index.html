@@ -10,19 +10,18 @@
       href="https://placekitten.com/96/139"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="css/index.css" />
+    <link 
+      rel="stylesheet" 
+      href="css/index.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    ></script>
-    <script
-      src="https://unpkg.com/htmx.org@1.9.10"
-      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-      crossorigin="anonymous"
-    ></script>
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+    />
   </head>
 
   <body>
@@ -315,7 +314,58 @@
 
       </section>
     </main>
-    <footer></footer>
-    <script src="js/script.js"></script>
+
+    <footer id="footer" class="footer">
+      <div class="footer-container">
+          <div class="footer-links">
+              <p><a href="/accessibility" target="_self">Accessibility</a></p>
+              <p><a href="/terms-and-conditions" target="_self">Terms & Conditions</a></p>
+              <p><a href="/privacy-policy" target="_self">Privacy Policy</a></p>
+              <p><a href="/shipping-policy" target="_self">Shipping Policy</a></p>
+              <p><a href="/refund-policy" target="_self">Refund Policy</a></p>
+          </div>
+  
+          <div class="footer-social">
+              <ul class="social-links" aria-label="Social Media Panel">
+                  <li>
+                      <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                          <i class="bi bi-facebook social-icon"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.twitter.com/" target="_blank" aria-label="Twitter">
+                          <i class="bi bi-twitter social-icon"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://instagram.com/" target="_blank" aria-label="Instagram">
+                          <i class="bi bi-instagram social-icon"></i>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+                          <i class="bi bi-linkedin social-icon"></i>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+  
+          <div class="footer-credits">
+              <p>© 2024 by Analytix. Powered and secured by <a href="https://www.facebook.com/taras.shcherban.7" target="_blank">Taras Shcherban</a></p>
+          </div>
+      </div>
+  </footer>  
+  
+  <script
+   src="js/script.js"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <script
+    src="https://unpkg.com/htmx.org@1.9.10"
+    integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>

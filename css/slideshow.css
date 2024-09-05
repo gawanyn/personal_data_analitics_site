@@ -7,10 +7,10 @@
     max-width: 100%;
     margin: auto;
     overflow: hidden;
-    background-color: #6C4AB6; /* Ваш колір фону */
+    background-color: var(--background-button);
     border-radius: 10px;
     padding: 20px;
-    color: #fff;
+    color: var(--title-text-light);
     text-align: center;
   }
   
@@ -72,16 +72,16 @@
     font-size: 18px;
     transition: 0.6s ease;
     user-select: none;
-    background-color: rgba(0,0,0,0.5); /* Напівпрозорий фон */
-    border-radius: 50%; /* Круглі кнопки */
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
   }
   
   .next {
-    right: 10px; /* Відступ від правого краю */
+    right: 10px;
   }
   
   .prev {
-    left: 10px; /* Відступ від лівого краю */
+    left: 10px;
   }
   
   .prev:hover, .next:hover {

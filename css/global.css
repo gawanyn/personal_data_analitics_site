@@ -18,6 +18,8 @@
   --background-button: rgb(133, 77, 255);
   --background-secondary: rgb(242, 247, 255);
 
+  --background-footer: #001a4d;
+
   /*fonts*/
   --title-text-font: "Raleway", sans-serif;
   scroll-behavior: smooth;
