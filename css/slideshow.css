@@ -1,5 +1,7 @@
 .slideshow-section {
     height: 450;
+    margin: auto;
+    padding: auto;
 }
 
 .slideshow-container {

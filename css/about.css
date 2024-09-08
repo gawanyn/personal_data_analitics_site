@@ -1,11 +1,16 @@
 .about-content-wrapper-grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20 px;
+    gap: 10px;
+    max-width: 320px;
+    align-items: center;
+    margin: auto;
+    padding: 0;
 }
 
 .about-item-container {
     margin: 25px 0;
+    align-self: start;
 }
 
 .about-item-title-container {
@@ -50,8 +55,8 @@
     color: var(--description-text-dark);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 500px) {
     .about-content-wrapper-grid-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr); /* Встановити 3 колонки */
     }
 }
