@@ -57,6 +57,7 @@
 
 @media (min-width: 500px) {
     .about-content-wrapper-grid-container {
-        grid-template-columns: repeat(3, 1fr); /* Встановити 3 колонки */
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 90%;
     }
 }
